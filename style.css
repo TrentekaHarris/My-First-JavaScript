@@ -1,0 +1,27 @@
+body {
+    background-image: url("assets/background.avif");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+   
+}
+
+h1, h3 {
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
+p { 
+    
+    display: none;
+}
+
+
+img {
+    display: none;
+}
+
+div {
+ position: relative;
+ left: 45%;
+  bottom: 45%;  
+}
