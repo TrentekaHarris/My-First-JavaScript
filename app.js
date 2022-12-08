@@ -23,11 +23,12 @@ hidetext.onclick = disappearText;
 //show image
 
 const image = document.querySelector('img');
+const video = document.querySelector('iframe')
 const showImage = document.querySelector('#image');
 
 //show image
 function appearImage() {
-    image.style.display = 'block';
+    image.style.display = 'block' &&  iframe.style.display = 'block';
 }
 
 showImage.onclick = appearImage;
@@ -36,7 +37,7 @@ showImage.onclick = appearImage;
 const hideImage = document.querySelector('#noImage');
 
 function disappearImage() {
-    image.style.display = 'none';
+    image.style.display = 'none' && iframe.style.display = 'none';
 }
 
 hideImage.onclick = disappearImage;
@@ -45,25 +46,3 @@ hideImage.onclick = disappearImage;
 
 
 
-
-
-//show video
-
-const video = document.querySelector('iframe');
-const showImage = document.querySelector('#image');
-
-//show image
-function appearImage() {
-    iframe.style.display = 'block';
-}
-
-showImage.onclick = appearImage;
-
-//hide image
-const hideImage = document.querySelector('#noImage');
-
-function disappearImage() {
-    iframe.style.display = 'none';
-}
-
-hideImage.onclick = disappearImage;
