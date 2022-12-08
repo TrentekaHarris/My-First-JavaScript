@@ -28,7 +28,8 @@ const showImage = document.querySelector('#image');
 
 //show image
 function appearImage() {
-    image.style.display = 'block' &&  iframe.style.display = 'block';
+    image.style.display = 'block';
+    iframe.style.display = 'block';
 }
 
 showImage.onclick = appearImage;
@@ -37,7 +38,8 @@ showImage.onclick = appearImage;
 const hideImage = document.querySelector('#noImage');
 
 function disappearImage() {
-    image.style.display = 'none' && iframe.style.display = 'none';
+    image.style.display = 'none' ;
+    iframe.style.display = 'none';
 }
 
 hideImage.onclick = disappearImage;
