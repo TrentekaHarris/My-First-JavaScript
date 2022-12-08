@@ -40,3 +40,30 @@ function disappearImage() {
 }
 
 hideImage.onclick = disappearImage;
+
+
+
+
+
+
+
+//show video
+
+const video = document.querySelector('iframe');
+const showImage = document.querySelector('#image');
+
+//show image
+function appearImage() {
+    iframe.style.display = 'block';
+}
+
+showImage.onclick = appearImage;
+
+//hide image
+const hideImage = document.querySelector('#noImage');
+
+function disappearImage() {
+    iframe.style.display = 'none';
+}
+
+hideImage.onclick = disappearImage;
